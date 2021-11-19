@@ -60,6 +60,7 @@ a:hover {
 .header__nav-ul {
     display: flex;
     column-gap: 40px;
+    margin: 0 auto;
 }
 
 .header__nav_ul-link {
@@ -724,7 +725,31 @@ a:hover {
     }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 991px) {
+    
+    .header__content {
+        margin-top: 15px;
+    }
+
+    .collapse.show {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+    
+    .header__nav-btn {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+    
+    .header__nav-ul {
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+        margin: 0 0 15px 0;
+    }
+
     .header__content_brown-right::after {
         left: 5%;
     }
@@ -962,7 +987,7 @@ a:hover {
     .footer__subscribe {
         display: contents;
     }
-    
+
     .header__nav .d-flex {
         flex-direction: column;
     }
