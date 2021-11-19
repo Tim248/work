@@ -955,7 +955,7 @@ a:hover {
         display: contents;
     }
 }
-
+    
 @media (max-width: 575px) {
     .header__nav .d-flex {
         flex-direction: column;
