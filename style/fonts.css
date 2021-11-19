@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'FredokaOneR';
+    src: url(../fonts/FredokaOne/FredokaOne-Regular.ttf);
+}
+@font-face {
+    font-family: 'HindMB';
+    src: url(../fonts/HindMadurai/HindMadurai-Bold.ttf);
+}
+@font-face {
+    font-family: 'HindMM';
+    src: url(../fonts/HindMadurai/HindMadurai-Medium.ttf);
+}
+@font-face {
+    font-family: 'HindMR';
+    src: url(../fonts/HindMadurai/HindMadurai-Regular.ttf);
+}
+@font-face {
+    font-family: 'HindMSb';
+    src: url(../fonts/HindMadurai/HindMadurai-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'RB';
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: 'RM';
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: 'RR';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
