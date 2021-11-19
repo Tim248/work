@@ -249,7 +249,7 @@ a:hover {
     opacity: 0.6;
     font-family: var(--rm);
     text-decoration: none;
-    transition: color 300ms border 300ms;
+    transition: color 300ms, border 300ms;
 }
 
 .product__ul-link:hover {
