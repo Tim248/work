@@ -591,6 +591,7 @@ a:hover {
 .footer__subscribe-input {
     padding: 20px 0 19px 32px;
     background: #0A0808;
+    color: white;
     font-size: 14px;
     line-height: 16px;
     opacity: 0.6;
