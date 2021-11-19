@@ -623,6 +623,10 @@ a:hover {
 
 @media (max-width: 1200px) {
     .user__review::before {
+        opacity: 0;
+    }
+
+    .user__review::before {
         right: 68%;
         top: 78%;
     }
@@ -721,11 +725,15 @@ a:hover {
 }
 
 @media (max-width: 990px) {
+    .header__content_brown-right::after {
+        width: 0;
+    }
+
     .user__review::before {
         right: 30%;
         top: 85%;
     }
-    
+
     .product__item-box:nth-of-type(2) {
         flex-direction: column-reverse;
     }
@@ -781,11 +789,11 @@ a:hover {
     .user__review::before {
         opacity: 0;
     }
-    
+
     .user__review::after {
         opacity: 0;
     }
-    
+
     .product__ul {
         padding: 0;
         column-gap: 20px;
@@ -958,6 +966,9 @@ a:hover {
     .header__nav .d-flex {
         flex-direction: column;
     }
+}
+
+@media (max-width: 575px) {
 
     .header__nav-ul {
         padding: 0;
