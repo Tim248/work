@@ -38,7 +38,7 @@
 }
 
 a:hover {
-    color: black;
+    color: white;
 }
 
 /* Root End */
@@ -454,6 +454,10 @@ a:hover {
     font-size: 22px;
     line-height: 26px;
     margin-bottom: 25px;
+}
+
+.order__info_ul-link:hover {
+    color: black;
 }
 
 .order__info_ul-link:last-child {
