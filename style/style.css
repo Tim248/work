@@ -726,7 +726,7 @@ a:hover {
 
 @media (max-width: 990px) {
     .header__content_brown-right::after {
-        width: 0;
+        width: 1px;
     }
 
     .user__review::before {
