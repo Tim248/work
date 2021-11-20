@@ -249,6 +249,7 @@ a:hover {
     opacity: 0.6;
     font-family: var(--rm);
     text-decoration: none;
+    transition: color 300ms, border 300ms;
 }
 
 .product__ul-link:hover {
@@ -591,6 +592,7 @@ a:hover {
 .footer__subscribe-input {
     padding: 20px 0 19px 32px;
     background: #0A0808;
+    color: white;
     font-size: 14px;
     line-height: 16px;
     opacity: 0.6;
@@ -925,7 +927,7 @@ a:hover {
     }
 
     .footer__subscribe-btn {
-        padding-right: 30%;
+        padding-right: 25%;
     }
 
     .footer__text {
