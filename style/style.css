@@ -34,7 +34,11 @@
     text-transform: capitalize;
     font-family: var(--hmb);
     text-decoration: none;
-    transition: color 300ms;
+    transition: color 300ms, transform 300ms;
+}
+
+.all-btns:hover {
+    transform: scale(1.1);
 }
 
 a:hover {
@@ -164,6 +168,13 @@ a:hover {
     background: #FFFFFF;
     max-width: 250px;
     width: 100%;
+    transition: transform 700ms;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 10px 10px #e6c4cf;;
+    padding-top: 10px;
 }
 
 .box__title {
