@@ -727,6 +727,10 @@ a:hover {
 
 @media (max-width: 991px) {
     
+    .header__content-main {
+        margin-bottom: 35px;
+    }
+
     .header__content {
         margin-top: 15px;
     }
@@ -736,13 +740,13 @@ a:hover {
         flex-direction: column;
         justify-content: start;
     }
-    
+
     .header__nav-btn {
         display: flex;
         align-self: center;
         justify-content: center;
     }
-    
+
     .header__nav-ul {
         align-items: center;
         flex-direction: column;
@@ -785,13 +789,16 @@ a:hover {
         bottom: -93px;
     }
 
-    .order__img {
-        width: 150px;
-        height: 327px;
+    .order__items {
+        display: flex;
+        flex-direction: row-reverse;
+        column-gap: 60px;
     }
 
-    .order__source-img {
-        width: 200px;
+    .order__source {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 
     .footer__subscribe-btn {
@@ -811,6 +818,19 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+    .order__img {
+        max-width: 160px;
+        width: 100%;
+        max-height: 350px;
+        height: 100%;
+        right: -20px;
+    }
+    
+    .order__items {
+        column-gap: 90px;
+        
+    }
+
     .user__review::before {
         opacity: 0;
     }
@@ -990,6 +1010,10 @@ a:hover {
 
     .header__nav .d-flex {
         flex-direction: column;
+    }
+    
+    .header__content_brown-btn {
+        margin-bottom: 20px;
     }
 }
 
